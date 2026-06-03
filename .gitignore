@@ -1,0 +1,46 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.temp
+*.log
+
+# IDE metadata
+.idea/
+*.iml
+
+# Repository automation metadata
+**/.github/
+
+# Flutter/Dart
+App/apex_nub_adapter/.dart_tool/
+App/apex_nub_adapter/.flutter-plugins
+App/apex_nub_adapter/.flutter-plugins-dependencies
+App/apex_nub_adapter/.pub/
+App/apex_nub_adapter/.pub-cache/
+App/apex_nub_adapter/build/
+App/apex_nub_adapter/**/doc/api/
+App/apex_nub_adapter/**/ios/Flutter/.last_build_id
+
+# Keil uVision / ARM toolchain
+Firmware/ApexNub-Adapter/*.uvguix.*
+Firmware/ApexNub-Adapter/*.uvoptx
+Firmware/ApexNub-Adapter/*.uvprojx.*.tmp
+Firmware/ApexNub-Adapter/DebugConfig/
+Firmware/ApexNub-Adapter/Listings/
+Firmware/ApexNub-Adapter/nRF5_SDK_17.1.0/
+Firmware/ApexNub-Adapter/Objects/
+Firmware/ApexNub-Adapter/RTE/
+
+# SEGGER / flash logs
+Firmware/ApexNub-Adapter/JLinkLog*.txt
+Firmware/ApexNub-Adapter/JLinkSettings*.ini
+
+# Altium Designer generated data
+Hardware/ApexNub-Adapter/History/
+Hardware/ApexNub-Adapter/__Previews/
+Hardware/ApexNub-Adapter/Project Logs for ApexNub-Adapter/
+Hardware/ApexNub-Adapter/Project Outputs for ApexNub-Adapter/
+Hardware/ApexNub-Adapter/*.bak
+Hardware/ApexNub-Adapter/*.DskDoc
